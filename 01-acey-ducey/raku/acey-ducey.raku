@@ -20,15 +20,14 @@ class Game { has $.balance is rw = 100; }
 my $game-state = Game.new;
 
 loop {
-    say "YOU NOW HAVE {$game-state.balance} DOLLARS.";
-    say "";
+    say "YOU NOW HAVE {$game-state.balance} DOLLARS.\n";
     say "HERE ARE YOUR NEXT TWO CARDS:";
     my @choices = @deck.pick(3);
     my $final-card = @choices.pop;
     @choices .= sort: *.value; 
     .say for @choices;
 
-    my Cool $bet;
+    my $bet;
     loop {
         $bet = prompt "WHAT IS YOUR BET? ";
         last if $bet ~~ /^ \d+ $/ and 0 <= $bet <= $game-state.balance;

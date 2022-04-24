@@ -7,12 +7,10 @@ None yet.
 
 Partially Implemented
 ---------------------
-None yet.
+01 - Acey Ducey
 
 Not Yet Implemented
 -------------------
-01 - Acey Ducey
-
 02 - Amazing
 
 03 - Animal
