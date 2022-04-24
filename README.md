@@ -1,8 +1,16 @@
 ## Basic Computer Games
 My version of the "Basic Computer Games" repo. This repo focuses on three languages specifically: JavaScript, Raku, and Rust. Because that's what I'm trying to use in my day-to-day.
 
+Complete
+--------
+None yet.
+
+Partially Implemented
+---------------------
+None yet.
+
 Not Yet Implemented
-===================
+-------------------
 01 - Acey Ducey
 
 02 - Amazing
